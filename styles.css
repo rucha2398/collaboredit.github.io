@@ -8,6 +8,17 @@ h1 {
 	letter-spacing: 2.5px;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+	font-size: 25px; 
+	font-style: normal; 
+	font-variant: normal; 
+	color: white;
+	margin-top: 90;
+	letter-spacing: 1.0px;
+
+}
+
 .column {
     float: left;
     width: 33.33%;
@@ -24,8 +35,13 @@ h1 {
 	height: 4%;
 }
 
-.breakleft {
-	height: 1%;
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
 }
 
 
