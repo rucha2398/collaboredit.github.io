@@ -41,6 +41,17 @@ h4 {
 	padding-top: 50px;
 }
 
+h5 {
+    font-family: 'Roboto', sans-serif;
+	font-size: 25px; 
+	font-style: normal; 
+	font-variant: normal; 
+	color: white;
+	margin-top: 85;
+	letter-spacing: 1.0px;
+	padding-left: 20px;
+}
+
 .column {
     float: left;
     width: 33.33%;
@@ -64,6 +75,18 @@ a:link {
 
 a:visited {
 	color: #FFFFFF;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.responsive {
+	width: 95%;
+    height: auto;
 }
 
 
