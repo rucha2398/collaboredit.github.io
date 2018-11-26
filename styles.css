@@ -8,6 +8,22 @@ h1 {
 	letter-spacing: 2.5px;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.break {
+	height: 4%;
+}
+
 
 
 
