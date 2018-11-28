@@ -1,3 +1,8 @@
+body {
+	height: 120%;
+	background: linear-gradient(90deg, rgba(251,173,80,1) 0%, rgba(188,42,141,1) 35%, rgba(138,58,185,1) 100%);
+}
+
 h1 {
 	font-family: 'Righteous', cursive;
 	font-size: 60px; 
@@ -86,7 +91,7 @@ a:visited {
 }
 
 .break {
-	height: 20%;
+	height: -15%;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -127,6 +132,8 @@ a:visited {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+
 
 
 
